@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 {
+    font-size: 10px;
+    padding: 0;
+    margin-bottom: 1px;
+}
+
+h2 {
+    padding: 0 10px 0 10px;
+    margin: 0;
+    font-size: 15px;
+}
+
+h5 {
+    font-size: 10px;
+}
+
+p {
+    font-size: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+.ptext {
+    text-align: justify!important;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.taille {
+    height: 240px;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+.card {
+    border: none;
+}
+
+.imagebox {
+    height: 135px;
+    object-fit: cover;
+}
+
+.training {
+    background-image: url(../assets/img/activites/bg_activite_1.jpg);
+    background-size: cover;
+}
+
+.cycling {
+    background-image: url(../assets/img/activites/bg_activite_2.jpg);
+    background-size: cover;
+}
+
+.fonctionnel {
+    background-image: url(../assets/img/activites/bg_activite_3.jpg);
+    background-size: cover;
+}
+
+.crossfit {
+    background-image: url(../assets/img/activites/bg_activite_4.jpg);
+    background-size: cover;
+}
+
+.marginsection {
+    margin: 0 150px 0 150px
+}
+
+.image {
+    width: 35px;
+}
