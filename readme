@@ -1,0 +1,210 @@
+<nav
+        class="d-flex justify-content-center align-items-center fs-6 text-uppercase"
+      >
+        <img
+          class="w-5 h-5 img-nav mx-5 mt-2"
+          src="../assets/img/logo_2.png"
+          alt="Logo"
+          height="30"
+        />
+        <div
+          class="container d-flex row justify-content-center align-items-center"
+        >
+          <ul class="nav pt-2">
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-current="page" href="#"
+                >l'équipe</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">les activités</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">nos offres</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true" href="#"
+                >planning</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true" href="#"
+                >le blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true" href="#"
+                >contact</a
+              >
+              </li>
+              <div class="contener"></div>
+            </li>
+
+            <li class="nav-item">
+              <p class="text-start mx-5 mt-2">
+                <img
+                  class="phone"
+                  src="https://img.icons8.com/material-outlined/24/iphone--v2.png"
+                  alt="iphone--v2"
+                />05 59 47 84 18
+              </p>
+            </li>
+            <li class="d-flex justify-content-center mt-2">
+              <div class="d-flex">
+                <img
+                  width="12"
+                  height="12"
+                  src="https://img.icons8.com/material-rounded/24/000000/facebook.png"
+                  alt="facebook"
+                />
+
+                <img
+                  width="12"
+                  height="12"
+                  src="https://img.icons8.com/material-rounded/24/000000/facebook.png"
+                  alt="facebook"
+                />
+              </div>
+
+              <img
+                width="12"
+                height="12"
+                src="https://img.icons8.com/material-rounded/24/000000/facebook.png"
+                alt="facebook"
+              />
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img id="img" class="navbar-brand" src="../assets/img/logo_2.png" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >l'équipe</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Les activités</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  nos ofrre
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true" href="#"
+                  >planning</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true" href="#"
+                  >le blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true" href="#"
+                  >contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="p-3 fs-6">&#128241;05 59 47 84 18</div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+      <section id="formulaire">
+        <div class="coor">
+          <h2 class="text-uppercase">Nos coordonnées</h2>
+          <div class="studio">
+            <p class="text-capitalize ">
+              <h5 class="text-capitalize ">studio sport & coaching</h5>
+              01 allée marie politzer<br />64200 biarritz
+            </p>
+          </div>
+          <div class="telephone">
+            <h5 class=" text-capitalize">téléphone</h5>
+            <p>05 59 47 84 18</p>
+          </div>
+          <div class="horaires w-75">
+            <h5 class=" text-capitalize">horaires</h5>
+            <p>
+              Du Lundi au vendredi de 8h à 14h, de 16h à 21h Le samedi
+              de 10 h à 13h
+            </p>
+          </div>
+          <div class="Email">
+            <h5 class=" text-capitalize">email</h5>
+            <p>contact (at) studiobiarritz.com <br/>ou via formulaire</p>
+          </div>
+        </div>
+        <div class="formulaireDeContact">
+          <h2 class="text-uppercase">formulaire de contact</h2>
+          <form action="" id="form">
+            <div class="container-form">
+              <div class="prenom-nom">
+                <input type="text" class="text-uppercase fs-6" placeholder="Votre nom" aria-label="Username" aria-describedby="addon-wrapping"> 
+                <input type="text" class="text-uppercase fs-6" placeholder="Votre prénom" aria-label="Username" aria-describedby="addon-wrapping">
+              </div>
+              <div class="tel-email">
+                <input type="tel" class="text-uppercase fs-6" placeholder="Votre numero de telephone" aria-label="Username" aria-describedby="addon-wrapping">
+                <input type="email" class="text-uppercase fs-6" placeholder="Votre email" aria-label="Username" aria-describedby="addon-wrapping">
+              </div>
+              <div class="sujet">
+                <input type="text" class="text-uppercase fs-6 " class="sujet"placeholder="sujet" aria-label="Username" aria-describedby="addon-wrapping">
+              </div>
+              
+              <textarea type="text" class="text-uppercase fs-6" placeholder="Votre message"></textarea>
+            </div>
+            <div class="col-12 mx-2">
+              <button class="btn  text-uppercase" type="submit" id="btn">Envoyer</button>
+            </div>
+            </form>
+  
+        </div>
+      </section>

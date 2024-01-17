@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    /* background-color: grey; */
+
+}
+
+header {
+    position: relative;
+}
+
+.banderol {
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 67%, 49% 100%, 0 69%);
+    width: 40px;
+    height: 50px;
+    background-color: rgb(210, 181, 35);
+    right: 50px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.banderol {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    z-index: 1;
+
+}
+
+.banderol a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+/* nav {
+    position: absolute;
+   z-index: 1;
+   top: 0;
+} */
+
+nav a {
+    /* font-size: 1.5rem; */
+    color: rgb(255, 255, 255);
+    top: 0;
+    padding: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    text-transform: uppercase;
+
+
+
+
+
+}
+
+
+.phone {
+    width: 10px;
+}
+
+/* .p {
+    font-size: 15px;
+    
+} */
+
+.text-start {
+    /* font-size: 10px; */
+    display: flex;
+    align-items: center;
+
+
+}
+
+.col img {
+    width: 10px;
+    height: 10px;
+}
+
+#img {
+    width: 150px;
+    height: 90px;
+    margin: 30px;
+}
+
+.img {
+    width: 200px;
+    margin-left: 30px;
+}
+
+
+
+nav a:hover {
+    background-color: rgb(210, 181, 35);
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+
+
+
+
+    /* position: fixed; */
+
+
+}
+
+.coor {
+    margin-right: 140px;
+}
+
+
+.coor p {
+    font-size: 0.9rem;
+    width: 100%
+}
+
+#numberPhone {
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    display: grid;
+}
+
+#formulaire {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 150px 550px;
+}
+
+#formulaire h5 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 2rem;
+    /* margin: 10px; */
+    line-height: 40px;
+    width: 100%;
+}
+
+input,
+textarea {
+    background-color: rgb(216, 207, 207);
+    border: none;
+}
+
+.prenom-nom {
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+}
+
+.prenom-nom input {
+    height: 50px;
+    margin: 10px;
+    /* border: none; */
+
+
+}
+
+
+
+.tel-email {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.tel-email input {
+    height: 50px;
+    margin: 10px;
+    /* border: none; */
+
+
+}
+
+.sujet {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.sujet input {
+    margin: 10px;
+    height: 50px;
+}
+
+textarea {
+    margin: 10px;
+    display: grid;
+    width: 750px;
+    height: 250px;
+    resize: none;
+}
+
+
+
+
+::placeholder {
+    color: black;
+    padding: 15px;
+    font-variant-emoji: 5px;
+
+}
+
+#carouselExampleCaptions {}
+
+.btn {
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    color: white;
+}
+
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 100%;
+
+}
+
+
+.carousel-caption {
+    font-family: 'Bebas Neue', sans-serif;
+    height: 50%;
+    margin-bottom: 5rem;
+}
+
+.carousel-caption p {
+    margin-bottom: 3rem;
+    font-size: 32px;
+}
+
+
+.button1 {
+    width: 150px !important;
+    height: 60px;
+
+}
+
+
+.btntt {
+    background-color: rgba(255, 255, 255, 0);
+    width: 150px !important;
+    height: 60px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+
+
+@media (max-width: 1430px) {
+
+    a,
+    #numberPhone {
+        font-size: 0.9rem;
+        display: flex;
+        flex-basis: auto;
+        flex-wrap: wrap;
+        ;
+    }
+}
+
+@media (max-width: 1380px) {
+
+    a,
+    #numberPhone {
+        font-size: 0.7rem;
+        display: flex;
+        flex-basis: auto;
+        flex-wrap: wrap;
+        ;
+    }
+
+    .img {
+        width: 150px;
+
+    }
+}
+
+@media (max-width: 1290px) {
+
+    a,
+    #numberPhone {
+        font-size: 0.6rem;
+        display: flex;
+        flex-basis: auto;
+        flex-wrap: wrap;
+
+    }
+
+    .img {
+        width: 130px;
+
+    }
+}
+
+@media (max-width: 1200px) {
+
+    a,
+    #numberPhone {
+        font-size: 0.5rem;
+        display: flex;
+        flex-basis: auto;
+        flex-wrap: wrap;
+        ;
+    }
+
+    .img {
+        width: 110px;
+    }
+}
+
+@media (max-width: 1142px) {
+
+    a,
+    #numberPhone {
+        font-size: 0.4rem;
+        display: flex;
+        flex-basis: auto;
+        flex-wrap: wrap;
+        ;
+    }
+}
+
+
+.btn-burger {
+    border: 1px solid rgb(255, 255, 255);
+}
