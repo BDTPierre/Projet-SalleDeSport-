@@ -291,3 +291,68 @@ nav a:hover {
     object-position: left!important;
 }
 
+/* CONTACT */
+
+#formulaire {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 150px 550px;
+}
+
+#formulaire h5 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+input,
+textarea {
+    background-color: rgb(216, 207, 207);
+    border: none;
+}
+
+.prenom-nom {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.prenom-nom input {
+    height: 50px;
+    margin: 10px;
+    /* border: none; */
+}
+
+.tel-email {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.tel-email input {
+    height: 50px;
+    margin: 10px;
+    /* border: none; */
+}
+
+.sujet {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.sujet input {
+    margin: 10px;
+    height: 50px;
+}
+
+textarea {
+    margin: 10px;
+    display: grid;
+    width: 750px;
+    height: 250px;
+    resize: none;
+}
+
+::placeholder {
+    color: black;
+    padding: 15px;
+    font-variant-emoji: 5px;
+}
