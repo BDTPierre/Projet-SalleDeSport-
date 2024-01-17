@@ -21,7 +21,7 @@ h1 {
 }
 
 h3 {
-    font-size: 10px;
+    font-size: 15px;
     padding: 0;
     margin-bottom: 1px;
 }
@@ -29,31 +29,165 @@ h3 {
 h2 {
     padding: 0 10px 0 10px;
     margin: 0;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 h5 {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 p {
-    font-size: 8px;
+    font-size: 12px;
     padding: 0;
     margin: 0;
 }
+
+/* NAV BAR */
+
+.banderol {
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0%, 100% 67%, 49% 100%, 0 69%);
+    width: 40px;
+    height: 50px;
+    background-color: rgb(210, 181, 35);
+    right: 50px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banderol {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    z-index: 1;
+}
+
+.banderol a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+nav {
+    position: absolute;
+   z-index: 1;
+   top: 0;
+}
+
+nav a {
+    /* font-size: 1.5rem; */
+    color: rgb(255, 255, 255);
+    top: 0;
+    padding: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.phone {
+    width: 10px;
+}
+
+.text-start {
+    /* font-size: 10px; */
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover {
+    background-color: rgb(210, 181, 35);
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+
+
+
+
+    /* position: fixed; */
+}
+
+.coor {
+    margin-right: 140px;
+}
+
+
+.coor p {
+    font-size: 0.9rem;
+    width: 100%
+}
+
+#numberPhone {
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    display: grid;
+}
+
+.btn-burger {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* SLIDER */
+.btn {
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    color: white;
+}
+
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 100%;
+}
+
+
+.carousel-caption {
+    font-family: 'Bebas Neue', sans-serif;
+    height: 50%;
+    margin-bottom: 5rem;
+}
+
+.carousel-caption p {
+    margin-bottom: 3rem;
+    font-size: 25px;
+}
+
+.button1 {
+    width: 150px !important;
+    height: 60px;
+}
+
+.btntt {
+    background-color: rgba(255, 255, 255, 0);
+    width: 150px !important;
+    height: 60px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+/* CORPS DE TEXTE */
 
 .ptext {
     text-align: justify!important;
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 10px;
 }
 
 .taille {
-    height: 240px;
+    height: 410px;
     color: white;
     padding: 10px;
     margin: 0;
@@ -64,7 +198,7 @@ p {
 }
 
 .imagebox {
-    height: 135px;
+    height: 235px;
     object-fit: cover;
 }
 
@@ -89,11 +223,11 @@ p {
 }
 
 .marginsection {
-    margin: 0 150px 0 150px
+    margin: 0 250px 0 250px
 }
 
 .image {
-    width: 35px;
+    width: 55px;
 }
 
 .error {
@@ -104,3 +238,56 @@ p {
     align-items: center;
     text-align: center;
 }
+
+/* FOOTER */
+
+
+.footer {
+    background-color: #38393a;
+}
+
+.textfooter {
+    margin-left: 10rem;
+}
+
+.textfooter2 {
+    margin-right: 7rem;
+}
+
+.gold-text {
+    color: goldenrod;
+}
+
+.logo {
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.logo364 {
+    padding: 0!important;
+}
+
+.titre_blanc {
+    width: 12px;
+    height: 1px;
+}
+
+.logo-footer {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    object-position: left!important;
+}
+
+.titre-footer {
+    display: flex;
+    align-items: center;
+}
+
+.logo364 {
+    width: 50px;
+    height: 25px;
+    object-fit: contain;
+    object-position: left!important;
+}
+
