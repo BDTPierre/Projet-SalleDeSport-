@@ -137,12 +137,6 @@ nav a:hover {
 }
 
 /* SLIDER */
-.btn {
-    width: 150px;
-    background-color: rgba(255, 255, 255, 0);
-    font-weight: bold;
-    color: white;
-}
 
 .carousel-indicators button {
     height: 10px !important;
@@ -169,7 +163,7 @@ nav a:hover {
 
 .btntt {
     background-color: rgba(255, 255, 255, 0);
-    width: 150px !important;
+    width: 180px !important;
     height: 60px;
     color: white;
     font-weight: bold;
@@ -315,17 +309,17 @@ nav a:hover {
   margin-bottom: 5rem; /* Ajoutez une marge / l'espace entre le texte et le bouton */
 }
 
-.gold{
 
-    color: goldenrod;
+.btn {
+    background-color: goldenrod;
+    font-weight: bold;
+    color: white;
 }
 
-.carousel-caption p {
-  margin-bottom: 3rem; /* Ajoutez une marge en bas de 1rem entre le texte et le bouton */
-  font-size: 32px; /* taille police d'écriture */
+.a {
+    text-decoration: none;
+    color: white;
 }
-
-
 
 
 .presentationbtn {
