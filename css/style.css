@@ -295,34 +295,45 @@ nav a:hover {
 
 /* LA PRESENTATION */
 
+
+
+
 .carousel-indicators button {
-    height: 10px !important;
-    /* hauteur de la pagination */
-    width: 10px !important;
-    /* largeur de la pagination */
-      border-radius: 100%;/* bordure ronde de la pagination */
+    height: 10px!important;/* hauteur de la pagination */
+  width: 10px!important;/* largeur de la pagination */
+  border-radius: 100%;/* bordure ronde de la pagination */
+
+}
+
+
+
+
+/* Appliquer le style au conteneur parent du paragraphe */
+.carousel-caption {
+  font-family: 'Bebas Neue', sans-serif;
+  height: 50%; /* Assure que le conteneur prend toute la hauteur disponible / div: p/btn */
+  margin-bottom: 5rem; /* Ajoutez une marge / l'espace entre le texte et le bouton */
+}
+
+.gold{
+
+    color: goldenrod;
 }
 
 .carousel-caption p {
-    margin-bottom: 3rem;
-    /* Ajoutez une marge en bas de 1rem entre le texte et le bouton */
-    font-size: 32px;
-    /* taille police d'écriture */
+  margin-bottom: 3rem; /* Ajoutez une marge en bas de 1rem entre le texte et le bouton */
+  font-size: 32px; /* taille police d'écriture */
 }
 
-.button1 {
-    width: 130px !important;
-}
 
-/* régler la largeur du bouton}
 
-/* CONTACT/FORMULAIRE */
 
-#formulaire {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 150px 550px;
-}
+.presentationbtn {
+  width: 130px !important;} /* régler la largeur du bouton
+
+
+
+/* FORMULAIRE */
 
 #formulaire h5 {
     color: rgb(0, 0, 0);
