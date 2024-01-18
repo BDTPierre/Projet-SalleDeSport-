@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -12,7 +12,9 @@ body {
     margin: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -77,8 +79,8 @@ p {
 
 nav {
     position: absolute;
-   z-index: 1;
-   top: 0;
+    z-index: 1;
+    top: 0;
 }
 
 nav a {
@@ -177,7 +179,7 @@ nav a:hover {
 /* CORPS DE TEXTE */
 
 .ptext {
-    text-align: justify!important;
+    text-align: justify !important;
 }
 
 .icon {
@@ -264,7 +266,7 @@ nav a:hover {
 }
 
 .logo364 {
-    padding: 0!important;
+    padding: 0 !important;
 }
 
 .titre_blanc {
@@ -276,7 +278,7 @@ nav a:hover {
     width: 25px;
     height: 25px;
     object-fit: contain;
-    object-position: left!important;
+    object-position: left !important;
 }
 
 .titre-footer {
@@ -288,12 +290,31 @@ nav a:hover {
     width: 50px;
     height: 25px;
     object-fit: contain;
-    object-position: left!important;
+    object-position: left !important;
 }
 
 /* LA PRESENTATION */
 
+.carousel-indicators button {
+    height: 10px !important;
+    /* hauteur de la pagination */
+    width: 10px !important;
+    /* largeur de la pagination */
+      border-radius: 100%;/* bordure ronde de la pagination */
+}
 
+.carousel-caption p {
+    margin-bottom: 3rem;
+    /* Ajoutez une marge en bas de 1rem entre le texte et le bouton */
+    font-size: 32px;
+    /* taille police d'écriture */
+}
+
+.button1 {
+    width: 130px !important;
+}
+
+/* régler la largeur du bouton}
 
 /* CONTACT/FORMULAIRE */
 
