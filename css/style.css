@@ -235,9 +235,6 @@ nav a:hover {
     text-align: center;
 }
 
-/* FOOTER */
-
-
 .footer {
     background-color: #38393a;
 }
@@ -290,16 +287,11 @@ nav a:hover {
 /* LA PRESENTATION */
 
 
-
-
 .carousel-indicators button {
     height: 10px!important;/* hauteur de la pagination */
   width: 10px!important;/* largeur de la pagination */
   border-radius: 100%;/* bordure ronde de la pagination */
-
 }
-
-
 
 
 /* Appliquer le style au conteneur parent du paragraphe */
@@ -309,80 +301,91 @@ nav a:hover {
   margin-bottom: 5rem; /* Ajoutez une marge / l'espace entre le texte et le bouton */
 }
 
-
-.btn {
-    background-color: goldenrod;
-    font-weight: bold;
-    color: white;
-}
-
 .a {
     text-decoration: none;
     color: white;
 }
 
-
-.presentationbtn {
-  width: 130px !important;} /* régler la largeur du bouton
-
-
-
-/* FORMULAIRE */
-
-#formulaire h5 {
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 1rem;
+.bg {
+    background-color: goldenrod;
 }
+
+/* CONTACT */
 
 input,
 textarea {
-    background-color: rgb(216, 207, 207);
+
     border: none;
 }
 
 .prenom-nom {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 55% 40%;
 }
 
 .prenom-nom input {
-    height: 50px;
+    height: 40px;
     margin: 10px;
     /* border: none; */
 }
 
 .tel-email {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 55%;
 }
 
 .tel-email input {
-    height: 50px;
+    height: 40px;
     margin: 10px;
     /* border: none; */
 }
 
 .sujet {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 95%;
 }
 
 .sujet input {
     margin: 10px;
-    height: 50px;
+    height: 40px;
 }
 
 textarea {
-    margin: 10px;
-    display: grid;
-    width: 750px;
-    height: 250px;
+    /* margin: 10px; */
+    /* display: grid; */
+    width: 937px;
+    height: 200px;
     resize: none;
+    margin-top: 10px;
+
 }
 
 ::placeholder {
     color: black;
     padding: 15px;
     font-variant-emoji: 5px;
+}
+
+.buttonSubmit {
+    border: none;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #daa520;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+
+.coord {
+    margin-left: 15px;
+}
+
+.section-con {
+    margin: 120px;
+    flex-wrap: wrap;
 }
