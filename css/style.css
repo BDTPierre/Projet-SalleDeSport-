@@ -81,6 +81,7 @@ nav {
     position: absolute;
     z-index: 1;
     top: 0;
+   
 }
 
 nav a {
@@ -90,8 +91,7 @@ nav a {
     padding: 25px;
     text-decoration: none;
     transition: 0.3s;
-    text-transform: uppercase;
-    text-align: center;
+   
 }
 
 .phone {
@@ -105,10 +105,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgb(210, 181, 35);
+    background-color: rgb(232, 198, 28);
     /* width: 100%; */
     display: flex;
     align-items: center;
+    justify-content: center;
 
 
 
@@ -353,7 +354,7 @@ textarea {
 textarea {
     /* margin: 10px; */
     /* display: grid; */
-    width: 937px;
+    width: 860px;
     height: 200px;
     resize: none;
     margin-top: 10px;
@@ -386,6 +387,14 @@ textarea {
 }
 
 .section-con {
-    margin: 120px;
+    margin: 100px 180px 120px 180px;
     flex-wrap: wrap;
+}
+
+.mapdiv {
+    height: auto;
+}
+
+.map {
+    object-fit: cover;
 }
