@@ -37,6 +37,7 @@ h2 {
 
 h5 {
     font-size: 15px;
+    margin: 0
 }
 
 p {
@@ -233,6 +234,38 @@ nav a:hover {
     width: 55px;
 }
 
+.mainlink {
+    text-decoration: none;
+    color: white;
+}
+
+.imglink {
+    width: 30px;
+    border-radius: 30px;
+}
+
+.imglink:hover {
+    width: 180px;
+    height: 2px;
+    border-radius: 30px;
+}
+
+.mainlink1 {
+    text-decoration: none;
+    color: black;
+}
+
+.imglink1 {
+    width: 30px;
+    border-radius: 30px;
+}
+
+.imglink1:hover {
+    width: 85px;
+    height: 2px;
+    border-radius: 30px;
+}
+
 /* FOOTER */
 
 .footer {
@@ -257,7 +290,7 @@ nav a:hover {
 }
 
 .logo364 {
-    padding: 0 !important;
+    padding: 0!important;
 }
 
 .titre_blanc {
@@ -282,6 +315,16 @@ nav a:hover {
     height: 25px;
     object-fit: contain;
     object-position: left !important;
+}
+
+.lienfooter {
+    text-decoration: none;
+    color: white;
+}
+
+.lienfooter:hover {
+    color: goldenrod;
+    filter: goldenrod;
 }
 
 /* LA PRESENTATION */
@@ -319,7 +362,6 @@ nav a:hover {
 
 input,
 textarea {
-
     border: none;
 }
 
