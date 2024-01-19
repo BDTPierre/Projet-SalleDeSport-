@@ -108,13 +108,12 @@ nav a {
     align-items: center;
 }
 
-nav a:hover {
+.navlien:hover {
     background-color: rgb(232, 198, 28);
-    /* width: 100%; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* position: fixed; */
+}
+
+.activelien:hover {
+    background-color: rgb(232, 198, 28)!important;
 }
 
 .coor {
