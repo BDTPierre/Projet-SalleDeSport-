@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+/* mes classes générique */
+.top-70{
+    top: 70%;
+}
+/* FIN mes classes générique */
+
 body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
@@ -48,29 +54,18 @@ p {
 
 /* NAV BAR */
 
-.banderol {
-    position: absolute;
-    clip-path: polygon(0 0, 100% 0%, 100% 67%, 49% 100%, 0 69%);
-    width: 40px;
-    height: 50px;
-    background-color: rgb(210, 181, 35);
-    right: 50px;
-    font-size: 0.9rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
+.banderol{
+    display: none;
 }
-
-
-.banderol {
+/* .banderol {
     text-transform: uppercase;
     display: flex;
     justify-content: center;
     padding-top: 8px;
     z-index: 1;
-}
+} */
 
 .banderol a {
     text-decoration: none;
@@ -78,10 +73,12 @@ p {
 }
 
 
-nav {
-    position: absolute;
-    z-index: 1;
-    top: 0;
+
+.nav-item{
+    padding: 10px ;
+}
+.nav-item:hover{
+    background-color: #daa520
 }
 
 nav a {
@@ -90,13 +87,7 @@ nav a {
     transition: 0.3s;
 }
 
-.nav {
-    padding: 10px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .phone {
     width: 10px;
@@ -108,12 +99,15 @@ nav a {
     align-items: center;
 }
 
-.navlien:hover {
-    background-color: rgb(232, 198, 28);
+.navlien1 {
+    width: 100%;
+    height: auto;
+    text-size-adjust: auto;
 }
 
-.activelien:hover {
-    background-color: rgb(232, 198, 28)!important;
+
+.link:hover {
+    color: goldenrod!important;
 }
 
 .coor {
@@ -126,9 +120,9 @@ nav a {
 }
 
 #numberPhone {
-    margin-left: 400px;
+    /* margin-left: 400px; */
     color: rgb(255, 255, 255);
-    display: grid;
+    /* display: grid; */
 }
 
 .a_hover:hover {
@@ -155,27 +149,27 @@ nav a {
 .carousel-caption {
     font-family: 'Bebas Neue', sans-serif;
     height: 50%;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
 }
 
 .carousel-caption p {
-    margin-bottom: 3rem;
-    font-size: 25px;
+    /* margin-bottom: 3rem; */
+    font-size: 12px;
 }
 
 .button1 {
     width: 150px !important;
-    height: 60px;
-}
 
+}
 .btntt {
     background-color: rgba(255, 255, 255, 0);
-    width: 180px !important;
-    height: 60px;
+    padding: 7px 15px;
     color: white;
     font-weight: bold;
     border: 1px solid white;
 }
+  
+
 
 /* CORPS DE TEXTE */
 
@@ -223,10 +217,6 @@ nav a {
 .crossfit {
     background-image: url(../assets/img/activites/bg_activite_4.jpg);
     background-size: cover;
-}
-
-.marginsection {
-    margin: 0 250px 0 250px
 }
 
 .image {
@@ -339,12 +329,12 @@ nav a {
 }
 
 
-/* Appliquer le style au conteneur parent du paragraphe */
+/* A/* ppliquer le  */style au conteneur parent du paragraphe */
 .carousel-caption {
     font-family: 'Bebas Neue', sans-serif;
-    height: 50%;
+    /* height: 50%; */
     /* Assure que le conteneur prend toute la hauteur disponible / div: p/btn */
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
     /* Ajoutez une marge / l'espace entre le texte et le bouton */
 }
 
@@ -459,4 +449,78 @@ textarea {
     width: 100%;
     height: 225px;
     object-fit: cover;
+}
+@media screen and (min-width: 992px){
+    .nav-item{
+        padding: 30px 10px ;
+    }
+    .w-lg-90
+    {
+        width: 90%!important;
+    }
+    .bg-dark{
+     background-color: transparent!important;
+    }
+    .carousel-caption p {
+        /* margin-bottom: 3rem; */
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 768px){
+    .width-25{
+        width: 25%;
+    }
+
+    
+    
+  
+}
+
+@media screen and (min-width:1400px) {
+    .banderol {
+        position: relative;
+        clip-path: polygon(0 0, 100% 0%, 100% 67%, 49% 100%, 0 69%);
+        width: 40px;
+        height: 50px;
+        background-color: goldenrod;
+        /* right: 5%; */
+        font-size: 0.9rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: -18px;
+    }
+    /* .nav-item {
+        width: 100px;
+    }
+    .navlien {
+        width: 100%;
+        font-size: 0.5rem;
+    } */
+
+    /* .carousel {
+        height: 150px;
+    } */
+}
+
+@media (min-width:1110px) and (max-width:1726px) {
+    /* .nav-item {
+        width: 150px;
+    }
+
+    .navlien {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #numberPhone {
+        width: 150px;
+        margin-left: 65px;
+    }
+
+    .carousselresponsive {
+        height: 10rem;
+    } */
 }
