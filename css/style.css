@@ -258,7 +258,11 @@ nav a {
 /* FOOTER */
 
 .footer {
-    background-color: #38393a;
+    background-color: #323334;
+}
+
+.bgfooter {
+    background-color: #212020;
 }
 
 .textfooter {
@@ -294,11 +298,6 @@ nav a {
     object-position: left !important;
 }
 
-.titre-footer {
-    display: flex;
-    align-items: center;
-}
-
 .logo364 {
     width: 50px;
     height: 25px;
@@ -313,7 +312,6 @@ nav a {
 
 .lienfooter:hover {
     color: goldenrod;
-    filter: goldenrod;
 }
 
 /* LA PRESENTATION */
@@ -329,7 +327,7 @@ nav a {
 }
 
 
-/* A/* ppliquer le  */style au conteneur parent du paragraphe */
+/* Appliquer le style au conteneur parent du paragraphe */
 .carousel-caption {
     font-family: 'Bebas Neue', sans-serif;
     /* height: 50%; */
@@ -399,7 +397,7 @@ textarea {
 ::placeholder {
     color: black;
     padding: 15px;
-    font-variant-emoji: 5px;
+    /* font-variant-emoji: 5px; */
 }
 
 .buttonSubmit {
