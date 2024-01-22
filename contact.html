@@ -110,8 +110,8 @@
                 <form id="form">
                     <div class="container-form">
                         <div class="prenom-nom">
-                            <input type="text" class="text-uppercase bg-body-secondary fs-6 ms-0"
-                                placeholder="Votre nom" aria-label="Username">
+                            <input type="text" id="userInput" class="text-uppercase bg-body-secondary fs-6 ms-0"
+                                placeholder="Votre nom" aria-label="Username" onclick="checkAlpha()">
                             <input type="text" class="text-uppercase bg-body-secondary fs-6 me-0"
                                 placeholder="Votre prénom" aria-label="Username">
                         </div>
@@ -130,7 +130,7 @@
                             placeholder="votre message"></textarea>
                     </div>
                     <div class="buttonSubmit col-12 mx-2 ">
-                        <button type="button" class="buttonSubmit btn btn-warning">Envoyer</button>
+                        <button type="submit" class="buttonSubmit btn btn-warning">Envoyer</button>
                     </div>
                 </form>
             </div>
