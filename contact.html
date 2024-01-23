@@ -110,23 +110,23 @@
                 <form id="form">
                     <div class="container-form">
                         <div class="prenom-nom">
-                            <input type="text" id="userInput" class="text-uppercase bg-body-secondary fs-6 ms-0"
-                                placeholder="Votre nom" aria-label="Username" onclick="checkAlpha()">
-                            <input type="text" class="text-uppercase bg-body-secondary fs-6 me-0"
+                            <input type="text" id="nomInput" class="form-control text-uppercase bg-body-secondary fs-6 ms-0"
+                                placeholder="Votre nom" aria-label="Username">
+                            <input type="text" id="prenomInput" class="form-control text-uppercase bg-body-secondary fs-6 me-0"
                                 placeholder="Votre prénom" aria-label="Username">
                         </div>
                         <div class="tel-email">
-                            <input type="tel" class="text-uppercase  bg-body-secondary fs-6 ms-0"
+                            <input type="tel" id="telInput" class="form-control text-uppercase  bg-body-secondary fs-6 ms-0"
                                 placeholder="Votre numero de telephone" aria-label="Username">
-                            <input type="email" class="text-uppercase  bg-body-secondary fs-6 me-0"
+                            <input type="email" id="emailInput" class="form-control text-uppercase  bg-body-secondary fs-6 me-0"
                                 placeholder="Votre email" aria-label="Username">
                         </div>
                         <div class="sujet">
-                            <input type="text" class="text-uppercase sujet bg-body-secondary fs-6 ms-0 me-0"
+                            <input type="text" id="sujetInput" class="form-control text-uppercase sujet bg-body-secondary fs-6 ms-0 me-0"
                                 placeholder="sujet" aria-label="Username">
                         </div>
 
-                        <textarea class="bg-body-secondary radius text-uppercase" id="inputMessage"
+                        <textarea class="form-control bg-body-secondary radius text-uppercase" id="messageTextArea"
                             placeholder="votre message"></textarea>
                     </div>
                     <div class="buttonSubmit col-12 mx-2 ">
