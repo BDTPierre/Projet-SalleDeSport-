@@ -119,17 +119,15 @@ submit.addEventListener("submit", (e) => {
 
     //Si tout les champs sont correct, le formulaire est soumis et un mail est envoyé grace à la fonction,
 
-    function SendMail(object) {
-      return Email.send({
+      Email.send({
         SecureToken: "a0ab04df-34b0-4c8f-aaaf-8711b9a7a3c7",
         To: 'pierrebui007@gmail.com',
         From: "pierrebui007@gmail.com",
-        Subject: object.subject,
-        Body: object.surname + ", " + object.name + ", " + object.mail + ", " + object.phone + ", " + object.description + "."
+        Subject: infoContact.subject,
+        Body: infoContact.surname + ", " + infoContact.name + ", " + infoContact.mail + ", " + infoContact.phone + ", " + infoContact.description + "."
       }).then(
         message => alert(message)
       );
-    };
     SendMail(infoContact);
   } else {
     //Sinon le programme lance une alert pour demander à l'utilisateur de rentrer correctement les champs du formulaire 
