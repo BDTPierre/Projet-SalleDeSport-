@@ -128,7 +128,6 @@ submit.addEventListener("submit", (e) => {
       }).then(
         message => alert(message)
       );
-    SendMail(infoContact);
   } else {
     //Sinon le programme lance une alert pour demander à l'utilisateur de rentrer correctement les champs du formulaire 
     alert("Tous les champs ne sont pas rentrés ou ne sont pas valide, mercie de rentrer correctement les champs du formulaire");
